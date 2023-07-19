@@ -164,6 +164,7 @@ font-family: 'Work Sans', sans-serif;
     
     border-radius: 16px;   
 }
+
 .funny-videos-card .card-details {
     color: #534C64;
     font-size: 1.12rem;
@@ -215,6 +216,10 @@ font-family: 'Work Sans', sans-serif;
 
 
 }
+.games-title:hover{
+    -webkit-text-fill-color: #F948B2;
+    border: 1px solid sandybrown;
+}
 .games-title{
     width: 262px;
     height: 80px;
@@ -224,6 +229,7 @@ font-family: 'Work Sans', sans-serif;
     align-items: center;
    
 }
+
 .games-title img{
     width: 60px;
     height: 60px;
