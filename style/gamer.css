@@ -188,6 +188,7 @@ font-family: 'Work Sans', sans-serif;
 .play-details {
     color: #534C64;
     font-size: 1.12rem;
+    font-weight: 400;
     margin-top: 5px;
 }
 .play-img .img {
@@ -390,6 +391,7 @@ font-family: 'Work Sans', sans-serif;
             gap: 0px;
           }
           .play-instantly {
+           
             gap: 50px;
        }
        .games-title {
@@ -403,6 +405,7 @@ font-family: 'Work Sans', sans-serif;
         grid-template-columns: repeat(2, 1fr);
         max-width: 800px;
        }
+       
         
       }
       
