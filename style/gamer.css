@@ -169,6 +169,41 @@ font-family: 'Work Sans', sans-serif;
     font-size: 1.12rem;
     font-weight: 500;
 }
+/* play-instantly section style */
+.play-instantly {
+    max-width: 1920px;
+    margin: 100px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+
+}
+.play-title {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.play-details {
+    color: #534C64;
+    font-size: 1.12rem;
+    margin-top: 5px;
+}
+.play-img .img {
+    height: 80%;
+    margin-left: 100px;
+}
+
+.img-badge {
+    border-radius: 8px;
+    border: 10px solid #FFF;
+    width: 318px;
+    position: relative;
+    text-align: center;
+    bottom: 100px;
+
+   
+}
 
 
 
@@ -185,7 +220,8 @@ font-family: 'Work Sans', sans-serif;
         .nav-container,
         .nav-items-container,
         .banner-section,
-        .funny-videos-card
+        .funny-videos-card,
+        .play-instantly
         {
             flex-direction: column;
         }
@@ -196,10 +232,31 @@ font-family: 'Work Sans', sans-serif;
         .banner-section {
             
             margin-top: 150px;
-        }
-        .funny-videos-card {
             padding: 20px;
         }
+        
+        
+        .funny-videos {
+            padding: 20px;
+        }
+        .play-img .img {
+            width: 100%;
+            margin-left: 50px;
+            
+        }
+        .play-instantly {
+            padding: 20px;
+             gap: 50px;
+             max-width: 300px;
+        }
+        .img-badge {
+            max-width: 300px;
+        }
+        .play-title{
+            font-size: 1.25rem;
+        }
+        .
+
         
     
 
@@ -207,7 +264,10 @@ font-family: 'Work Sans', sans-serif;
       }
       /* medium devices*/
       @media screen and (min-width: 576px) and (max-width: 960px) {
-        .nav-container {
+        .nav-container,
+        .play-instantly
+        
+        {
             flex-direction: column;
             box-shadow: none;
         }
@@ -217,7 +277,11 @@ font-family: 'Work Sans', sans-serif;
         .funny-videos-card {
             display: grid;
             grid-template-columns: repeat(2,1fr);
+            gap: 0px;
           }
+          .play-instantly {
+            gap: 50px;
+       }
         
       }
       
