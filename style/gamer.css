@@ -236,7 +236,7 @@ font-family: 'Work Sans', sans-serif;
 }
 /* footer section style */
 .footer-section {
-    /* max-width: 1920px; */
+    max-width: 1920px;
     margin: 100px auto;
      background: #0B0223;
      padding: 50px;
@@ -357,6 +357,9 @@ font-family: 'Work Sans', sans-serif;
         .policy-section{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
+        }
+        .footer-section {
+            max-width: 800px;
         }
         
     
