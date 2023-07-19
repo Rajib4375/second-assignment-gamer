@@ -134,6 +134,41 @@ font-family: 'Work Sans', sans-serif;
 .sign .go-rogue {
    margin-right: 20px;
 }
+/* funny videos style */
+
+.funny-videos{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.funny-videos-text{
+    text-align: center;
+}
+.funny-videos-title{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.funny-videos-details{
+    color: #534C64;
+    font-size: 1.12rem;
+    
+}
+.funny-videos-card{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    
+    
+}
+.funny-videos-card .card {
+    
+    border-radius: 16px;   
+}
+.funny-videos-card .card-details {
+    color: #534C64;
+    font-size: 1.12rem;
+    font-weight: 500;
+}
 
 
 
@@ -149,7 +184,8 @@ font-family: 'Work Sans', sans-serif;
       @media screen and (max-width: 576px) {
         .nav-container,
         .nav-items-container,
-        .banner-section
+        .banner-section,
+        .funny-videos-card
         {
             flex-direction: column;
         }
@@ -160,6 +196,9 @@ font-family: 'Work Sans', sans-serif;
         .banner-section {
             
             margin-top: 150px;
+        }
+        .funny-videos-card {
+            padding: 20px;
         }
         
     
@@ -175,5 +214,10 @@ font-family: 'Work Sans', sans-serif;
         .banner-section {
             flex-direction: column;
         }
+        .funny-videos-card {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+          }
         
       }
+      
