@@ -216,7 +216,7 @@ font-family: 'Work Sans', sans-serif;
 
 }
 .games-title{
-    width: 243px;
+    width: 262px;
     height: 80px;
     border-radius: 50px;
     background: #ffffff;
@@ -234,6 +234,58 @@ font-family: 'Work Sans', sans-serif;
     font-size: 1.6rem;
     font-weight: 600;
 }
+/* footer section style */
+.footer-section {
+    /* max-width: 1920px; */
+    margin: 100px auto;
+     background: #0B0223;
+     padding: 50px;
+}
+.footer-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-heading img {
+    width: 86px;
+     height: 40px
+
+}
+.footer-heading p{
+    color: #FFF;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.story-name {
+    color: #FFF;
+    font-size: 1.12rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+   
+}
+.icon-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+}
+.policy-section {
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+}
+.gmail {
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 500;
+    text-align: center;
+}
 
 
 
@@ -250,8 +302,7 @@ font-family: 'Work Sans', sans-serif;
         .nav-items-container,
         .banner-section,
         .funny-videos-card,
-        .play-instantly,
-        .button-container
+        .play-instantly
         
         {
             flex-direction: column;
@@ -280,14 +331,33 @@ font-family: 'Work Sans', sans-serif;
              gap: 50px;
              max-width: 300px;
         }
+        .button-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            max-width: 400px;
+            gap: 0;
+            
+        }
+        .games-title {
+            width: auto;
+            
+        }
         .img-badge {
             max-width: 300px;
         }
         .play-title{
             font-size: 1.25rem;
         }
-        
-
+        .story-name,
+        .icon-section
+        {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .policy-section{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
         
     
 
@@ -318,6 +388,11 @@ font-family: 'Work Sans', sans-serif;
             grid-template-columns: repeat(2,1fr);
             gap: 0px;
 
+       }
+       .button-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 800px;
        }
         
       }
